@@ -30,8 +30,11 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
-            ],
+              "src/styles.scss",
+              "src/assets/css/toastr.css",
+              "node_modules/toastr/build/toastr.css",
+              "node_modules/ng-zorro-antd/ng-zorro-antd.min.css"           ],
+              
             "scripts": []
           },
           "configurations": {
@@ -100,5 +103,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "5bc948e0-950f-4a15-b881-25e7a913edde"
   }
 }

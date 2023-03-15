@@ -1,0 +1,7 @@
+<p>event works!</p>
+<!-- using template valiable -->
+<app-thumnail #thumnail [ev]="events" ></app-thumnail>
+<h2 [class.item]="events">{{thumnail.someProperti}}</h2> 
+<span>&nbsp;</span>
+<button (click)="thumnail.logFoo()"> button</button>
+<button class="btn" style="background-color: brown;" (click)="handle(1)"> bật thông báo</button>
